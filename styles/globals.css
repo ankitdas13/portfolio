@@ -19,6 +19,21 @@
   }
 }
 
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(15, 22, 36);
@@ -107,6 +122,7 @@ hr {
   border-radius: 10px;
   background: linear-gradient(270deg, rgb(244, 103, 55) 0%, rgb(148, 93, 214) 100%);
 }
+
 
 @media (min-width: 1400px) {
 

@@ -7,6 +7,9 @@ import { BiLogoPostgresql, BiLogoPhp, BiLogoJavascript, BiLogoGithub, BiSolidMoo
 import { useState } from "react"
 import { Skills } from '@/components/Technologies/skills';
 import  Technologies  from '../components/Technologies';
+import Journey from '@/components/Journey';
+import Projects from '@/components/Projects';
+
 
 const inter = Quicksand({ subsets: ['latin'], display: 'swap' })
 const Skill = {
@@ -35,7 +38,7 @@ export default function Home() {
           </div>
         </header>
         <section className="im-section flex flex-wrap justify-between mt-20">
-          <div className="im-content basis-1/2 px-10">
+          <div className="im-content basis-3/5 px-10">
             <h2 className='text-green-400 text-5xl mt-10 font-medium mb-4'>I'm Ankit Das,</h2>
             <p className='text-[#808dad] text-xl'>Greetings! I'm Ankit Das, a skilled Full Stack Engineer with 5 years of experience in designing and developing scalable web applications. My passion for innovation drives me to create solutions that leave a lasting impact.</p>
             <div className="click-sec">
@@ -46,22 +49,31 @@ export default function Home() {
             <img src="https://media.licdn.com/dms/image/D4D03AQGmMq1xyqyEZQ/profile-displayphoto-shrink_800_800/0/1663370912277?e=1696464000&v=beta&t=_dWLkuWVH3ZLaGhPjGZYKqtMEgzr4nxexFBRMmUhNEU" alt="Portfolio Image" />
           </div>
         </section>
+        
         <section className="im-section mt-20">
-          <hr />
+          <Projects/>
+        </section> 
+
+        <section className="im-section mt-20">
           <Technologies/>
         </section> 
+
+        <section className="im-section mt-20">
+          <Journey/>    
+        </section> 
+        
         <footer className='px-5 pt-20'>
-          <div class="footer-content flex gap-4">
-            <div class="contact-info">
+          <div className="footer-content flex gap-4">
+            <div className="contact-info">
               <h3 className='text-2xl font-bold text-center mb-4'>CHAT</h3>
               <p className='text-[#808CAD] text-lg'>Telegram</p>
             </div>
-            <div class="contact-info">
+            <div className="contact-info">
               <h3 className='text-2xl font-bold text-center mb-4'>EMAIL</h3>
               <p className='text-[#808CAD] text-lg'>ankitdas10204@gmail.com</p>
             </div>
           </div>
-          <div class="copyright m-10">
+          <div className="copyright m-10">
             <p className="text-[#808CAD] text-lg text-center">Copyright &copy; Developed by Ankit Das. All right reserved.</p>
           </div>
         </footer>

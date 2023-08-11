@@ -7,16 +7,61 @@ export const Skills = [
     {
         slug: 'php',
         Component: BiLogoPhp,
-        Description: 'Test Php'
+        Description: 'Php, Laravel & Codeigniter frameworks'
     },
     {
         slug: 'node',
         Component: FaNodeJs,
-        Description: 'Test node'
+        Description: 'Dynamic APIs and server-side applications development.'
     },
     {
         slug: 'type-script',
         Component: SiTsnode,
-        Description: 'Test node'
+        Description: 'Strong typing for scalable app development.'
+    },
+    {
+        slug: 'react',
+        Component: DiReact,
+        Description: 'Building dynamic user interfaces and components.'
+    },
+    {
+        slug: 'js',
+        Component: BiLogoJavascript,
+        Description: 'Simplifying DOM manipulation and interactive web development.'
+    },
+    {
+        slug: 'aws',
+        Component: SiAmazonaws,
+        Description: 'Utilizing S3 and EC2 for scalable infrastructure.'
+    },
+    {
+        slug: 'git',
+        Component: SiGit,
+        Description: 'Simplifying DOM manipulation and interactive web development.'
+    },
+    {
+        slug: 'html',
+        Component: DiHtml5,
+        Description: 'Static webpages and portfolio projects'
+    },
+    {
+        slug: 'css',
+        Component: SiCss3,
+        Description: 'Version control and collaborative code management platform.'
+    },
+    {
+        slug: 'mysql',
+        Component: SiMysql,
+        Description: 'Storing client and user data'
+    },
+    {
+        slug: 'postgres',
+        Component: SiPostgresql,
+        Description: 'Storing data with reliable relational database management.'
+    },
+    {
+        slug: 'mongo db',
+        Component: SiMongodb,
+        Description: 'NoSQL database for flexible and scalable data storage.'
     },
 ]
