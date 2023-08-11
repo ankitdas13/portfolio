@@ -1,0 +1,23 @@
+import { Skills } from "./skills"
+
+export default function Technologies(){
+    return (
+        <div className="im-content basis-1/2 px-10">
+            <h2 className='text-green-400 text-4xl mt-10 font-bold mb-2'>Skills</h2>
+            <p className='text-[#808dad] text-xl'>I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 mt-8">
+                {Skills.map(Skill => (
+                    <div class="mt-5 flex flex-row">
+                        <div className='mb-10'><Skill.Component size={35} /></div>
+                        <div>
+                            <div className='text-2xl font-bold px-4 mb-3'>{Skill.slug.toLocaleUpperCase()}</div>
+                            <div className='text-lg font-bold px-4'>
+                                <p>{Skill.Description}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}

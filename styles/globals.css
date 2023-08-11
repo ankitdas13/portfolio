@@ -1,12 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,10 +21,142 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(15, 22, 36);
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  /* Vertically center the social links */
+}
+
+nav .nav-links a:hover {
+  color: #01D293;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* Aligns logo to the left and social links to the right */
+  align-items: center;
+  /* Vertically center the content */
+}
+
+nav .nav-links a {
+  text-decoration: none;
+  color: #808dad;
+  font-size: 18px;
+  margin: 0 15px;
+  /* Add space between navigation links */
+}
+
+.portfolio-image {
+  flex-basis: 34%;
+  /* Set the width of the left column */
+  display: flex;
+  justify-content: center;
+  /* Center the image horizontally */
+  align-items: center;
+  /* Center the image vertically */
+  -webkit-mask-image: url("../public/shape4.svg");
+  -webkit-mask-size: 100%;
+  -webkit-mask-position: center;
+  mask-position: center;
+  mask-size: 100%;
+  mask-image: url("../public/shape4.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.clickme {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px 0px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.clickme:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.clickme.color-gred {
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+hr {
+  width: 70px;
+  height: 6px;
+  border-radius: 10px;
+  background: linear-gradient(270deg, rgb(244, 103, 55) 0%, rgb(148, 93, 214) 100%);
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    /* Stack header elements vertically on smaller screens */
+    align-items: center;
+    /* Center header elements vertically */
+  }
+
+  .social-links {
+    margin: 10px;
+  }
+
+  nav {
+    order: 2;
+    /* Reorder social links to appear after nav links */
+  }
+
+  .im-content {
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  .click-sec {
+    display: flex;
+    justify-content: center;
+  }
+
+  .im-section {
+    justify-content: center;
+  }
+
+  .portfolio-image {
+    flex-basis: 70%;
+  }
+
+  hr {
+    position: relative;
+    left: 20px;
+  }
 }
