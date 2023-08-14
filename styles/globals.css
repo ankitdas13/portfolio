@@ -138,6 +138,10 @@ hr {
   cursor: pointer;
 }
 
+.timeline {
+  gap : 5
+}
+
 @media (min-width: 1400px) {
 
   .container,
@@ -146,7 +150,7 @@ hr {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1120px;
+    max-width: 1240px;
   }
 }
 
@@ -188,5 +192,19 @@ hr {
   hr {
     position: relative;
     left: 20px;
+  }
+
+  .timeline {
+    overflow: scroll;
+    display: flex;
+  }
+
+  .timeline-item {
+    flex: 0 0 calc(100% / 3);
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
   }
 }

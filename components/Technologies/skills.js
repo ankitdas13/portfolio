@@ -37,7 +37,7 @@ export const Skills = [
     {
         slug: 'git',
         Component: SiGit,
-        Description: 'Simplifying DOM manipulation and interactive web development.'
+        Description: 'Version control and collaborative code management platform.'
     },
     {
         slug: 'html',
@@ -47,7 +47,7 @@ export const Skills = [
     {
         slug: 'css',
         Component: SiCss3,
-        Description: 'Version control and collaborative code management platform.'
+        Description: 'Styling of my webpages'
     },
     {
         slug: 'mysql',
