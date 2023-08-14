@@ -15,7 +15,7 @@ export default function Home() {
         <header>
           <Navlink />
         </header>
-        <section className="im-section flex flex-wrap justify-between mt-20 px-10">
+        <section className="im-section flex flex-wrap justify-between mt-20">
           <Hero />
         </section>
 

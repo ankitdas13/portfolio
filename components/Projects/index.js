@@ -4,7 +4,7 @@ export default function Projects() {
     return (
         <>
             <hr />
-            <div className="im-content basis-1/2 px-10 ">
+            <div className="im-content basis-1/2 px-10 pb-5">
                 <h2 className='text-green-400 text-4xl mt-10 font-bold mb-2'>Project</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 mt-8">
                     {ProjectsDetails.map((Project,key) => (

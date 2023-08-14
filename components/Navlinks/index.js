@@ -42,10 +42,11 @@ export default function Navlink() {
         <>
             <div className='text-white text-2xl'>&lt;<span style={{ color: "#01D293" }}>A</span>nkit.<span style={{ color: "#01D293" }}>D</span>ev/&gt;</div>
             <nav>
-                <div className="flex justify-between items-center gap-10">
+                <div className="flex justify-between items-center gap-5">
                     <Link href="#home" className='text-[#808dad] text-lg hover:text-green-400'>Home</Link>
                     <Link scroll={true} href="#project" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll} >Project</Link>
                     <Link scroll={true} href="#skill" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll} >Skills</Link>
+                    <Link scroll={true} href="#journey" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll} >Journey</Link>
                     <Link href="#contact" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll}>Contact</Link>
                 </div>
             </nav>

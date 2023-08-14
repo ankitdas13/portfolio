@@ -1,3 +1,5 @@
+import profile from "@/public/profile.jpg"
+console.log(profile)
 export default function Hero() {
     return (
         <>
@@ -9,7 +11,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="portfolio-image basis-1/4 block">
-                <img src="https://media.licdn.com/dms/image/D4D03AQGmMq1xyqyEZQ/profile-displayphoto-shrink_800_800/0/1663370912277?e=1696464000&v=beta&t=_dWLkuWVH3ZLaGhPjGZYKqtMEgzr4nxexFBRMmUhNEU" alt="Portfolio Image" />
+                <img src={profile.src} alt="Portfolio Image" />
             </div>
         </>
     )
