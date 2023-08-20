@@ -27,7 +27,7 @@ export default function Home() {
           <Technologies />
         </section>
 
-        <section className="im-section mt-20">
+        <section className="im-section mt-20" id="journey">
           <Journey />
         </section>
 

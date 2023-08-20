@@ -1,9 +1,5 @@
-import { FaFacebookSquare, FaLinkedin, FaNodeJs } from "react-icons/fa";
-import { SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws, SiTsnode, SiPostgresql, SiMongodb } from "react-icons/si";
-import { DiHtml5, DiReact, DiJqueryLogo } from "react-icons/di";
-import { BiLogoPostgresql, BiLogoPhp, BiLogoJavascript, BiLogoGithub, BiSolidMoon } from "react-icons/bi"
-import { useState } from "react"
-import { Skills } from '@/components/Technologies/skills';
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { BiLogoGithub } from "react-icons/bi"
 import Link from "next/link"
 import $ from 'jquery'
 
@@ -51,9 +47,9 @@ export default function Navlink() {
                 </div>
             </nav>
             <div className="social-links flex align-items gap-2" style={{ color: "#808dad" }}>
-                <Link href="https://www.linkedin.com/"><FaLinkedin size={27} style={{ color: "#fff" }} /></Link>
-                <Link href="https://www.facebook.com/"><FaFacebookSquare size={27} style={{ color: "#fff" }} /></Link>
-                <Link href="https://www.facebook.com/"><BiLogoGithub size={27} style={{ color: "#fff" }} /></Link>
+                <Link href="https://www.linkedin.com/in/ankit1das"><FaLinkedin size={27} style={{ color: "#fff" }} /></Link>
+                <Link href="https://www.facebook.com/Ankit10204"><FaFacebookSquare size={27} style={{ color: "#fff" }} /></Link>
+                <Link href="https://github.com/ankitdas13"><BiLogoGithub size={27} style={{ color: "#fff" }} /></Link>
             </div>
         </>
     )

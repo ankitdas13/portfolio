@@ -21,7 +21,7 @@ export const journeyDetails = [
     },
     {
         year : "2022",
-        description : "Survived COVID-19 and got my Job at Virtusa"
+        description : "Survived COVID-19 while working with Virtusa"
     },
     {
         year : "2023",
