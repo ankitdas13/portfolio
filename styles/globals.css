@@ -142,6 +142,17 @@ hr {
   gap : 5
 }
 
+.contact-info a {
+  transition: all 0.3s ease 0s;
+  position: relative;
+  left: 0px;
+}
+
+.contact-info a:hover {
+  color: #fff;
+  left: 6px;
+}
+
 @media (min-width: 1400px) {
 
   .container,
