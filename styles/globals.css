@@ -126,7 +126,7 @@ hr {
   background: linear-gradient(270deg, rgb(244, 103, 55) 0%, rgb(148, 93, 214) 100%);
 }
 
-.social-links a{
+.social-links a {
   transition: all 0.3s ease 0s;
   border-radius: 50px;
   padding: 8px;
@@ -139,7 +139,7 @@ hr {
 }
 
 .timeline {
-  gap : 5
+  gap: 5
 }
 
 .contact-info a {
@@ -191,6 +191,15 @@ hr {
     flex-basis: 100%;
   }
 
+  .im-content h1 {
+    font-size: 1.58rem;
+    margin-top: 5px;
+  }
+
+  .im-content h2 {
+    font-size: 2.5rem;
+  }
+
   .click-sec {
     display: flex;
     justify-content: center;
@@ -220,6 +229,7 @@ hr {
 
   ::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;
+    /* make scrollbar transparent */
   }
 }
