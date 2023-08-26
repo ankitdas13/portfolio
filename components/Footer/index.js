@@ -12,7 +12,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="copyright m-10">
-                <p className="text-[#808CAD] text-lg text-center">Copyright &copy; Developed by <a className="text-blue-400" href="https://ankitdas.dev/">Ankit Das</a>. All right reserved.</p>
+                <p className="text-[#808CAD] text-lg text-center">&copy; Copyright 2023 - Developed by <a className="text-blue-400" href="https://ankitdas.dev/">Ankit Das</a>. All right reserved.</p>
             </div>
         </footer>
     )
