@@ -8,7 +8,7 @@ export default function Projects() {
                 <h2 className='text-green-400 text-4xl mt-10 font-bold mb-2'>Project</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 mt-8">
                     {ProjectsDetails.map((Project,key) => (
-                        <div key={key} className="max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div key={key} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src={`${Project.img}`} alt="" />
                             </a>
