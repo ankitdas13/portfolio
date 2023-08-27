@@ -10,7 +10,7 @@ export default function Technologies() {
                 <div className="grid grid-cols-1 md:grid-cols-3 mt-8 gap-10">
                     {Skills.map((Skill, key) => (
                         <div>
-                            <div key={key} className="mt-5 mt-16 flex flex-row bg-white border border-gray-200 rounded-t-lg shadow dark:bg-gray-800 dark:border-gray-700 px-2 pt-5 h-full">
+                            <div key={key} className="mt-5 mt-16 flex flex-row border border-gray-200 rounded-t-lg shadow dark:bg-gray-800 dark:border-gray-700 px-2 pt-5 h-full">
                                 <div className='mb-10'><Skill.Component size={38} /></div>
                                 <div>
                                     <div className='text-3xl font-bold px-4 mb-3'>{Skill.slug.toLocaleUpperCase()}</div>
