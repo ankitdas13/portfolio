@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className='px-5 pt-20'>
+        <div className='px-5 pt-20'>
             <div className="footer-content flex gap-4">
                 <div className="contact-info">
                     <h3 className='text-2xl font-bold text-center mb-4'>CHAT</h3>
@@ -14,6 +14,6 @@ export default function Footer() {
             <div className="copyright m-10">
                 <p className="text-[#808CAD] text-lg text-center">&copy; Copyright 2023 - Developed by <a className="text-blue-400" href="https://ankitdas.dev/">Ankit Das</a>. All right reserved.</p>
             </div>
-        </footer>
+        </div>
     )
 }

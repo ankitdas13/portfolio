@@ -37,7 +37,7 @@ export default function Navlink() {
     return (
         <>
             <div className='text-white text-2xl'>&lt;<span style={{ color: "#01D293" }}>A</span>nkit.<span style={{ color: "#01D293" }}>D</span>ev/&gt;</div>
-            <nav>
+            <div>
                 <div className="flex justify-between items-center gap-5">
                     <Link href="#home" className='text-[#808dad] text-lg hover:text-green-400'>Home</Link>
                     <Link scroll={true} href="#project" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll} >Project</Link>
@@ -45,7 +45,7 @@ export default function Navlink() {
                     <Link scroll={true} href="#journey" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll} >Journey</Link>
                     <Link href="#contact" className='text-[#808dad] text-lg  hover:text-green-400' onClick={handleScroll}>Contact</Link>
                 </div>
-            </nav>
+            </div>
             <div className="social-links flex align-items gap-2" style={{ color: "#808dad" }}>
                 <Link href="https://www.linkedin.com/in/ankit1das"><FaLinkedin size={27} style={{ color: "#fff" }} /></Link>
                 <Link href="https://www.facebook.com/Ankit10204"><FaFacebookSquare size={27} style={{ color: "#fff" }} /></Link>
