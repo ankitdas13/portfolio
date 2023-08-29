@@ -11,11 +11,11 @@ export default function Technologies() {
                     {Skills.map((Skill, key) => (
                         <div key={key}>
                             <div className="mt-5 mt-16 flex flex-row border rounded-t-lg shadow bg-gray-800 border-gray-700 px-2 pt-5 h-full">
-                                <div className='mb-10'><Skill.Component size={38} /></div>
-                                <div>
-                                    <div className='text-3xl font-bold px-4 mb-3'>{Skill.slug.toLocaleUpperCase()}</div>
+                                <div className='mb-10 text-white'><Skill.Component size={38} /></div>
+                                <div className="h-auto">
+                                    <div className='text-3xl text-white font-bold px-4 mb-3'>{Skill.slug.toLocaleUpperCase()}</div>
                                     <div className='text-base px-4'>
-                                        <p>{Skill.Description}</p>
+                                        <p className="text-white">{Skill.Description}</p>
                                     </div>
                                 </div>
                             </div>
