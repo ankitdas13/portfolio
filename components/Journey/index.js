@@ -10,8 +10,8 @@ export default function Journey() {
 
                 <div>
                     <ul className="timeline grid grid-cols-[13.2%_13.2%_13.2%_13.2%_13.2%_13.2%_13.2%] mt-8 gap-3">
-                        {journeyDetails.map(detail => (
-                            <li className="timeline-item block relative">
+                        {journeyDetails.map((detail,key) => (
+                            <li key={key} className="timeline-item block relative">
                                 <div className='text-2xl font-bold'>{detail.year}</div>
                                 <div className='text-sm'>
                                     {detail.description}
