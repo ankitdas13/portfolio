@@ -7,10 +7,16 @@ import { TbBrandDocker } from "react-icons/tb"
 
 export const Skills = [
     {
-        slug: 'php',
-        Component: BiLogoPhp,
-        Description: 'Php, Laravel & Codeigniter frameworks',
-        proficiency: '70%'
+        slug: 'react js',
+        Component: DiReact,
+        Description: 'Building dynamic user interfaces and components.',
+        proficiency: '80%'
+    },
+    {
+        slug: 'next js',
+        Component: DiReact,
+        Description: 'Server-side rendering for SEO-friendly web apps',
+        proficiency: '30%'
     },
     {
         slug: 'node',
@@ -31,16 +37,16 @@ export const Skills = [
         proficiency: '50%'
     },
     {
-        slug: 'react',
-        Component: DiReact,
-        Description: 'Building dynamic user interfaces and components.',
-        proficiency: '80%'
-    },
-    {
         slug: 'js',
         Component: BiLogoJavascript,
         Description: 'Simplifying DOM manipulation and interactive web development.',
         proficiency: '90%'
+    },
+    {
+        slug: 'php',
+        Component: BiLogoPhp,
+        Description: 'Php, Laravel & Codeigniter frameworks',
+        proficiency: '70%'
     },
     {
         slug: 'html',
