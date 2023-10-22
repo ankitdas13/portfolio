@@ -28,7 +28,7 @@ export default function Hero() {
                 
                
                 <div className="click-sec">
-                    <button className="clickme color-gred"  onClick={(e) => {e.preventDefault(); window.location.href = '/files/resume.pdf';}}>
+                    <button className="clickme color-gred"  onClick={(e) => {e.preventDefault(); window.location.href = '/files/resume_new.pdf';}}>
                         Download CV
                     </button>
                 </div>
